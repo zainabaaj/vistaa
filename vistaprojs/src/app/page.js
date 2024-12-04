@@ -16,9 +16,12 @@ export default function Home() {
           <h1 className='text-6xl px-4'>VISTA</h1>
         </div>
       
-       
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script>
+        <lottie-player src="https://lottie.host/66b5678b-5082-492a-85af-c2e262e7c9ff/vrkTOEboPZ.json"
+         background="##FFFFFF" speed="1" style={{width:  "300px", height: "300px" }}loop 
+          autoplay direction="1" mode="normal"></lottie-player>
         
-        <h1 className="text-white text-4xl font-bold mt-4">
+        <h1 className="text-yellow text-4xl font-bold mt-4">
           Under Construction
         </h1>
         <p className="text-white text-lg mt-2 max-w-lg">
